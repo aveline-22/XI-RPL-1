@@ -1,0 +1,100 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.7) !important; /* Putih dengan 70% opasitas */
+  backdrop-filter: blur(5px); /* Tambahkan blur supaya tampak modern */
+  -webkit-backdrop-filter: blur(5px); /* Support Safari */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tambah bayangan ringan */
+
+}
+.navbar .container {
+  padding-left: 0 !important;
+}
+
+.ms-auto {
+  padding-right: 0 !important;
+}
+
+.hero-section {
+  background-image: url('assets/bg belajar.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding: 90px 30px;
+  min-height: 80vh;
+  color: rgb(228, 140, 140);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  position: relative;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.hero-section .content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section h1 {
+  color: #2c3e50;
+}
+
+.hero-section p {
+  color: #555;
+  max-width: 600px;
+}
+
+.cta-section {
+  background-color: #f9a4cc;
+  
+}
+
+.footer-nav a {
+  color: #555;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.btn-outline-pink {
+  color: rgb(172, 55, 114);
+  border-color: rgb(172, 55, 114);
+  
+}
+
+.btn-outline-pink:hover {
+  background-color: #f9a4cc;
+  color: #fff;
+}
+
+.btn-pink {
+  background-color: pink;
+  border-color: pink;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: rgb(172, 55, 114);
+  border-color: rgb(185, 90, 138);
+}
+
+.btn-peach {
+  background-color: #c581a1; /* warna peach */
+  border-color: #c581a1;
+  color: white;
+}
+
+.btn-peach:hover {
+  background-color: #ad6e8b; /* peach sedikit lebih gelap */
+  border-color: #ad6e8b;
+}
