@@ -11,7 +11,10 @@ const books: Book[] = [
     { id: 1, judul: "TS Dasar", kategori: "Pemrograman", harga: 150000, stok: 10 },
     { id: 2, judul: "NestJS Lanjutan", kategori: "Web", harga: 200000, stok: 5 },
     { id: 3, judul: "Data Structures", kategori: "Ilmu Komputer", harga: 180000, stok: 8 },
+    { id: 4, judul: "JavaScript", kategori: "Ilmu Komputer", harga: 200000, stok: 5 },
+    { id: 5, judul: "Pemograman Awal", kategori: "Pemograman", harga: 160000, stok: 7 },
 ];
+//ini buat daftar bukunya (filter)
 function byCategory(kategori: string) {
     return books.filter(book => book.kategori === kategori);
 }
